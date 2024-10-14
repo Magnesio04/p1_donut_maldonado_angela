@@ -8,7 +8,7 @@ class MyTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Tab(
       child: Container(
-        color: Colors.grey[600],
+        color: const Color.fromARGB(255, 201, 94, 234),
         child: Image.asset(iconPath),),
     );
   }

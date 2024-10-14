@@ -57,8 +57,8 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.all(24.0),
           child: Row(
             children: [
-              Text("I want to ", style: TextStyle(fontSize: 24,),),
-              Text("Eat", style: TextStyle(fontSize: 24, 
+              Text("Friday ", style: TextStyle(fontSize: 24,),),
+              Text("party!!", style: TextStyle(fontSize: 24, 
               fontWeight: FontWeight.bold, 
               decoration: TextDecoration.underline)
               ), 
