@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; 
 
 class MyTab extends StatelessWidget {
   final String iconPath;
@@ -8,8 +8,16 @@ class MyTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Tab(
       child: Container(
-        color: const Color.fromARGB(255, 201, 94, 234),
-        child: Image.asset(iconPath),),
+        padding: const EdgeInsets.all(8),
+        decoration: BoxDecoration(
+          color: Colors.grey[200],
+          borderRadius: BorderRadius.circular(25),
+        ),
+        child: Image.asset(
+          iconPath,
+          color:Colors.grey[600],
+        )
+      ),
     );
   }
 }
